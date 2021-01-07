@@ -1,0 +1,28 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.layout__nav {
+    height: 8vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.layout__nav > a {
+    text-decoration: none;
+}
+
+.layout__nav > a > * {
+    color: white;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.layout__body {
+    padding-top: 24px;
+}
