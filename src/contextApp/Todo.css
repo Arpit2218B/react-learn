@@ -1,0 +1,78 @@
+.todo {
+    width: 25vw;
+    height: 70vh;
+    margin: auto;
+    background-color: #EFF0F4;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dark {
+    background-color: #595959;
+}
+
+.todo .todo__header {
+    background-color: #FEFEFE;
+    border-radius: 6px 6px 0 0;
+    padding: 20px;
+    color: #191919;
+}
+
+.dark .todo__header {
+    background-color: #292929;
+    color: #FEFEFE;
+}
+
+.todo__addTask {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 9px;
+}
+
+input {
+    flex: 0.8;
+    padding: 8px;
+    border: none;
+    background-color: #E0FFF4;
+    outline: none;
+}
+
+button {
+    outline: none;
+    flex: 0.2;
+    border: none;
+    background-color: #00A9A2;
+    padding: 8px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    height: 48vh;
+    list-style-type: none;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+li {
+    background-color: #FEFEFE;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+}
+
+.dark li {
+    background-color: #292929;
+    color: #FEFEFE;
+}
+
+li span {
+    background-color: #E8ACAB;
+    color: black;
+    padding: 10px;
+    cursor: pointer;;
+}
