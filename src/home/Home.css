@@ -1,13 +1,13 @@
 .home {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .homeItem {
-    background-color: rgba(100, 100, 100, 0.1);
-    width: 15vw;
-    padding: 24px;
-    margin-bottom: 24px;
-    height: 20vh;
+  background-color: rgba(100, 100, 100, 0.1);
+  width: 15vw;
+  padding: 24px;
+  margin-bottom: 24px;
+  height: 25vh;
 }

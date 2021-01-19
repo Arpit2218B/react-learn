@@ -1,5 +1,6 @@
 import Pagea from './contextApp/Pagea';
 import Pageb from './redux/Pageb';
+import Pagec from './styledComponents/Pagec';
 
 const projects = [
     {
@@ -14,6 +15,12 @@ const projects = [
         link: "/redux",
         component: Pageb
     },
+    {
+        name: "Styled Components",
+        description: "some description",
+        link: "/styled-components",
+        component: Pagec
+    }
 ]
 
 export default projects;
